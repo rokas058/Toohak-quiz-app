@@ -89,10 +89,6 @@ To run them individually:
 - PMD: `./gradlew pmdMain`
 - SpotBugs: `./gradlew spotbugsMain`
 
-## **🔒 Secret variables**
-
-All secret keys are in team's Discord server, `#secrets` channel
-
 ## Database
 
 All migrations are stored in `src/main/resources/db/changelog/`. They will be run on application start.
