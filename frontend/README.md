@@ -25,5 +25,3 @@ VITE_API_BASE_URL="http://localhost:8080/api"
 VITE_WS_CONFIG_URL=be-base-websocket-url
 VITE_WS_CONFIG_RECONNECTION_DELAY=websocket-reconnection-delay
 ```
-
-All secret keys are in team's Discord server, `#secrets` channel
