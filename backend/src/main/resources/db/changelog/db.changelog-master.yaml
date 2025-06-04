@@ -1,0 +1,15 @@
+databaseChangeLog:
+  - include:
+      file: "db/changelog/changes/sprint-1/changelog-sprint-1.yml"
+  - include:
+      file: "db/changelog/changes/sprint-2/changelog-sprint-2.yml"
+  - include:
+      file: "db/changelog/changes/sprint-3/changelog-sprint-3.yml"
+  - include:
+      file: "db/changelog/changes/sprint-4/changelog-sprint-4.yml"
+  - include:
+      file: "db/changelog/changes/sprint-5/changelog-sprint-5.yml"
+  - include:
+      file: "db/changelog/changes/sprint-7/changelog-sprint-7.yml"
+  - include:
+      file: "db/changelog/changes/sprint-10/changelog-sprint-10.yml"

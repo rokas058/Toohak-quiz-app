@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - include:
+      file: "db/changelog/changes/sprint-1/files-table.sql"
+  - include:
+      file: "db/changelog/changes/sprint-1/app-users-table.sql"
+  - include:
+      file: "db/changelog/changes/sprint-1/quizzes-table.sql"
+  - include:
+      file: "db/changelog/changes/sprint-1/questions-table.sql"
+  - include:
+      file: "db/changelog/changes/sprint-1/question-options-table.sql"
+  - include:
+      file: "db/changelog/changes/sprint-1/quiz-status-enum.sql"
+  - include:
+      file: "db/changelog/changes/sprint-1/quiz-sessions-table.sql"
+  - include:
+      file: "db/changelog/changes/sprint-1/quiz-players-table.sql"
+  - include:
+      file: "db/changelog/changes/sprint-1/player-answers-table.sql"

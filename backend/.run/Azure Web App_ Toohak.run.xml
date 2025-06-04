@@ -1,0 +1,80 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Azure Web App: Toohak" type="com.microsoft.intellij.run.configuration.WebAppConfigurationType" factoryName="Azure Web App">
+    <option name="appServicePlanName" value="" />
+    <option name="appServicePlanResourceGroupName" value="" />
+    <option name="appSettingsKey" value="cb9adc24-379e-48fd-83a0-e516320efc7c" />
+    <option name="appSettingsToRemove" />
+    <option name="applicationLogLevel" value="Error" />
+    <option name="artifactIdentifier" value="Toohak" />
+    <option name="azureArtifactType" value="Gradle" />
+    <option name="config">
+      <AppServiceConfig>
+        <option name="appName" value="toohak-api" />
+        <option name="appSettingsToRemove" />
+        <option name="diagnosticConfig" />
+        <option name="pricingTier">
+          <PricingTier>
+            <option name="size" value="B1" />
+            <option name="tier" value="Basic" />
+          </PricingTier>
+        </option>
+        <option name="region">
+          <Region>
+            <option name="abbreviation" value="Poland Central" />
+            <option name="label" value="Poland Central" />
+            <option name="name" value="Poland Central" />
+          </Region>
+        </option>
+        <option name="resourceGroup" value="toohak-sourcery" />
+        <option name="runtime">
+          <RuntimeConfig>
+            <option name="image" />
+            <option name="javaVersion" value="Java 21" />
+            <option name="os" value="Linux" />
+            <option name="registryUrl" />
+            <option name="startUpCommand" />
+            <option name="username" />
+            <option name="webContainer" value="Java SE" />
+          </RuntimeConfig>
+        </option>
+        <option name="servicePlanName" value="ASP-toohaksourcery-8d9d" />
+        <option name="servicePlanResourceGroup" value="toohak-sourcery" />
+        <option name="slotConfig" />
+        <option name="subscriptionId" value="20593aa1-47dd-4933-9683-53fdd3557b9c" />
+      </AppServiceConfig>
+    </option>
+    <option name="creatingAppServicePlan" value="false" />
+    <option name="creatingNew" value="false" />
+    <option name="creatingResGrp" value="false" />
+    <option name="deployToRoot" value="true" />
+    <option name="deployToSlot" value="false" />
+    <option name="enableApplicationLog" value="false" />
+    <option name="enableDetailedErrorMessage" value="false" />
+    <option name="enableFailedRequestTracing" value="false" />
+    <option name="enableWebServerLogging" value="false" />
+    <option name="newSlotConfigurationSource" />
+    <option name="newSlotName" />
+    <option name="openBrowserAfterDeployment" value="false" />
+    <option name="operatingSystem" />
+    <option name="packaging" value="jar" />
+    <option name="pricing" value="" />
+    <option name="projectBase" value="" />
+    <option name="projectType" value="" />
+    <option name="region" value="" />
+    <option name="resourceGroup" value="" />
+    <option name="slotName" />
+    <option name="slotPanelVisible" value="false" />
+    <option name="subscriptionId" value="" />
+    <option name="targetName" value="" />
+    <option name="targetPath" value="" />
+    <option name="webAppContainer" />
+    <option name="webAppId" value="" />
+    <option name="webAppJavaVersion" />
+    <option name="webAppName" value="" />
+    <option name="webServerLogQuota" value="35" />
+    <option name="webServerRetentionPeriod" />
+    <method v="2">
+      <option name="Gradle.BeforeRunTask" enabled="true" tasks="assemble" externalProjectPath="$PROJECT_DIR$" />
+    </method>
+  </configuration>
+</component>

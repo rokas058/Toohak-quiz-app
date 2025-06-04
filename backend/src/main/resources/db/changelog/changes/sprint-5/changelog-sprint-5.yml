@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - include:
+      file: "db/changelog/changes/sprint-5/quiz-session-progress.sql"
+  - include:
+      file: "db/changelog/changes/sprint-5/quiz-session-question-order.sql"
+  - include:
+      file: "db/changelog/changes/sprint-5/quiz-sessions-add-is-shuffled.sql"

@@ -1,0 +1,179 @@
+{
+  "loading": "Loading...",
+  "user_quiz_list_yourQuizzes": "Your Quizzes",
+  "user_quiz_list_error": "Error loading your quizzes",
+  "user_quiz_list_noQuizzes": "You have no quizzes",
+  "homepage_title": "Quiz games at Toohak!",
+  "homepage_description_host": "Test if your audience was listening...",
+  "homepage_description_player": "Think fast. Score high. Win big.",
+  "homepage_joingame": "JOIN A GAME",
+  "homepage_rejoin": "REJOIN",
+  "homepage_rejoin_checking": "Checking...",
+  "homepage_error_rejoin": "Game is not available for rejoin",
+  "navbar_create": "CREATE",
+  "navbar_browse": "BROWSE",
+  "navbar_yourquizzes": "YOUR QUIZZES",
+  "navbar_login": "LOG IN",
+  "navbar_logout": "LOG OUT",
+  "navbar_myquizzes": "MY QUIZZES",
+  "navbar_joinquiz": "JOIN QUIZ",
+  "question_dialog_question": "Question",
+  "question_dialog_question_option": "Option {{number}}",
+  "question_dialog_question_answer_required": "Select the correct answer",
+  "question_dialog_cancel": "Cancel",
+  "question_dialog_save": "Save",
+  "quiz_form_create_new_quiz": "Create new quiz",
+  "quiz_form_quiz_details": "Quiz Details",
+  "quiz_form_title": "Title",
+  "quiz_form_title_required": "Title is required",
+  "quiz_form_title_maxchar": " max characters",
+  "quiz_form_description": "Description",
+  "quiz_form_description_maxchar": " max characters",
+  "quiz_form_image_upload": "Upload Cover Image",
+  "quiz_form_image_dnd": "Drag and drop an image",
+  "quiz_form_image_types": "PNG, JPG (max. 3MB)",
+  "quiz_form_image_dnd_dragging": "Drop the image here...",
+  "quiz_form_image_remove": "Remove",
+  "quiz_form_image_error": "An error has occurred",
+  "quiz_form_button_saving": "Saving...",
+  "quiz_form_button_save": "Save",
+  "quiz_form_questions": "Questions",
+  "quiz_form_no_questions": "No questions yet",
+  "quiz_form_add_question": "+ ADD NEW QUESTION",
+  "error_fetching_quizzes": "Could not retrieve quizzes",
+  "QuestionModal": {
+    "question": "Question",
+    "questionOption": "Option {{number}}",
+    "cancel": "Cancel",
+    "save": "Save"
+  },
+  "QuizPage": {
+    "editButton": "Edit",
+    "deleteButton": "Delete",
+    "confirmDeleteMessage": "Are you sure you want to delete this quiz?",
+    "cancelButton": "Cancel",
+    "totalQuestions": "Total Questions: ",
+    "startButton": "Start",
+    "gameSettings": "Game settings",
+    "form": "Settings Form",
+    "noQuestions": "There are no questions in this quiz"
+  },
+  "EditQuizPage": {
+    "EditQuiz": "Edit Quiz",
+    "DeleteButton": "Delete"
+  },
+  "QuizSession": {
+    "EnterNickname": "Enter nickname",
+    "NicknamePlaceholder": "Nickname",
+    "Enter": "Enter",
+    "JoinCodeInvalid": "The code is incorrect",
+    "OwnSessionJoin": "Cannot join your own session",
+    "TryDifferentCode": "Try a different code",
+    "ValidatorJoinCodeRequired": "Join code is required",
+    "ValidatorJoinCodeLength": "Join code must be exactly 5 characters",
+    "EnterJoinCode": "Enter Join Code",
+    "Join": "Join",
+    "noQuestions": "There are no questions in this quiz",
+    "noAnswers": "There are no answers for this question",
+    "correctAnswerTooltip": "Correct answer",
+    "incorrectAnswerTooltip": "Incorrect answer",
+    "descriptionTitle": "Description",
+    "questionsTitle": "Questions",
+    "Question": "Question {{number}}",
+    "NicknameEmptyError": "Nickname cannot be empty",
+    "NicknameDuplicateError": "Nickname is already taken",
+    "Host": {
+      "Start": "Start",
+      "QuizTitle": "\"{{title}}\" quiz lobby",
+      "ScanQRCode": "Scan this QR code to join the session",
+      "JoinCodeTitle": "Join code",
+      "PlayerCount_one": "{{count}} player",
+      "PlayerCount_other": "{{count}} players",
+      "LoadingQuestion": "Loading next question...",
+      "LoadNextQuestionButtonLabel": "Next question",
+      "FinishQuizButtonLabel": "Finish quiz",
+      "QuizEndTitle": "Results for \"{{title}}\" quiz",
+      "Leave": "Leave",
+      "DurationLabel": "Question duration (seconds)",
+      "DurationErrorLess": "Duration must be at least 10 seconds",
+      "DurationErrorLong": "Duration must be at most 120 seconds"
+    },
+    "Player": {
+      "Placed": "You have placed",
+      "Place_one": "{{count}}st",
+      "Place_two": "{{count}}nd",
+      "Place_few": "{{count}}rd",
+      "Place_other": "{{count}}th",
+      "OutOf_one": "Out of {{count}} player",
+      "OutOf_other": "Out of {{count}} players",
+      "Score_one": "Your score: {{count}} point",
+      "Score_other": "Your score: {{count}} points",
+      "ReturnHome": "Return Home"
+    },
+    "waitingForOthers": "Waiting For Others...",
+    "answerSelected": "ANSWER SELECTED",
+    "waitingForNextQuestion": "Waiting for next question..."
+  },
+  "Error": {
+    "Quiz": {
+      "couldNotFind": "Could not find quiz",
+      "couldNotDelete": "Could not delete quiz",
+      "couldNotUpdate": "Could not update quiz",
+      "couldNotCreate": "Could not create quiz"
+    },
+    "Question": {
+      "couldNotFind": "Could not find question",
+      "couldNotDelete": "Could not delete question",
+      "couldNotUpdate": "Could not update question",
+      "couldNotCreate": "Could not create question",
+      "emptyFields": "Please fill in all fields!"
+    },
+    "List": {
+      "couldNotFind": "Could not find any quizzes"
+    },
+    "Image": {
+      "couldNotUpload": "Could not upload image",
+      "couldNotDelete": "Could not delete image"
+    },
+    "User": {
+      "couldNotRegister": "Could not register user"
+    }
+  },
+  "Success": {
+    "Quiz": {
+      "created": "Quiz created successfully",
+      "updated": "Quiz updated successfully",
+      "deleted": "Quiz deleted successfully"
+    },
+    "Image": {
+      "uploaded": "Image uploaded successfully",
+      "deleted": "Image deleted successfully"
+    },
+    "Question": {
+      "created": "Question created successfully",
+      "updated": "Question updated successfully",
+      "deleted": "Question deleted successfully"
+    },
+    "User": {
+      "registered": "User registered successfully"
+    }
+  },
+  "ConfirmationDialog": {
+    "defaultMessage": "Are you sure?",
+    "defaultConfirm": "Yes",
+    "defaultDecline": "No",
+    "messageDeleteQuestion": "Are you sure you want to delete this question?",
+    "messageDeleteQuiz": "Are you sure you want to delete this quiz?",
+    "deleteQuizImage": "Are you sure you want to delete this image?"
+  },
+  "AnswerQuestion": {
+    "answerSentSuccessfully": "Answer sent successfully",
+    "errorSendingAnswer": "Answer could not be sent"
+  },
+  "Score": {
+    "score": "Your score:",
+    "position": "Your position:",
+    "correct": "You answered correctly!",
+    "incorrect": "Wrong answer :/"
+  }
+}

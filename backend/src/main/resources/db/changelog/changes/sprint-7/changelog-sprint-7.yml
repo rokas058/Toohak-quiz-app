@@ -1,0 +1,5 @@
+databaseChangeLog:
+  - include:
+      file: "db/changelog/changes/sprint-7/quiz-sessions-new-foreign-key.sql"
+  - include:
+      file: "db/changelog/changes/sprint-7/app-user-drop-constraint.sql"

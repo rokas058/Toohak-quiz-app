@@ -1,0 +1,35 @@
+image: gradle:8.5.0-jdk21
+
+definitions:
+  caches:
+    gradle: ~/.gradle
+
+  services:
+    postgres:
+      image: postgres:15
+      memory: 1024
+      environment:
+        POSTGRES_DB: postgres
+        POSTGRES_USER: postgres
+        POSTGRES_PASSWORD: pass
+    azurite:
+      image: mcr.microsoft.com/azure-storage/azurite
+      memory: 512
+      ports:
+        - "10000:10000"
+
+pipelines:
+  default:
+    - step:
+        name: 🧪 Build & Test
+        size: 2x
+        services:
+          - docker
+          - postgres
+          - azurite
+        caches:
+          - gradle
+        script:
+          # Disable Ryuk for testcontainers (Bitbucket compatibility)
+          - export TESTCONTAINERS_RYUK_DISABLED=true
+          - ./gradlew clean build
